@@ -9,7 +9,7 @@ A descrição do problema pode ser lida no arquivo PDF: [Descrição](/TG-Enunci
 Foi utilizada uma topologia hierárquica publisher-subscriber utilizando a ferramenta de comunicação [ZeroMQ](http://zeromq.org/) (zero message queue) como descreve a imagem:
 
 
-![topologia](Diagrama_estrutura.png)
+![topologia](diagramas/Diagrama_estrutura.png)
 
 
 ### Pre-requisitos
@@ -25,9 +25,9 @@ pip install zmq
 
 Para cara arquivo:
 
-- [complexo.py](complexo.py)
-- [predio.py](predio.py)
-- [andar.py](andar.py)
+- [complexo.py](codigos/complexo.py)
+- [predio.py](codigos/predio.py)
+- [andar.py](codigos/andar.py)
 
 deverá ser aberta uma tela de terminal e executado o arquivo em sequência, ex:
 
@@ -55,7 +55,7 @@ sendo este terminal, responsável pelo andar 1 do prédio 1.
 
 ## Contribuição
 
-É importante resaltar que anteriormente foi feita uma parte do código em outro grupo, sendo eu o único responsável pelo seu desenvolvimento. Para fins de evitamento de plágio, declaro que os código reaproveitados foram [cliente.py](cliente.py) e [servidor.py](servidor.py)
+É importante resaltar que anteriormente foi feita uma parte do código em outro grupo, sendo eu o único responsável pelo seu desenvolvimento. Para fins de evitamento de plágio, declaro que os código reaproveitados foram [cliente.py](codigos/cliente.py) e [servidor.py](codigos/servidor.py)
 
 ## Autores
 
