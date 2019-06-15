@@ -23,7 +23,7 @@ pip install zmq
 
 ## Executando os códigos
 
-Para cara arquivo:
+Baixe a pasta codigos deste repositório, e para cara arquivo:
 
 - [complexo.py](codigos/complexo.py)
 - [predio.py](codigos/predio.py)
