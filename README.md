@@ -67,7 +67,7 @@ python predio.py 1
 ```
 para o terminal ser responsável pelo andar 1
 
-E para o último argumento (andar.py) , deverá ser passado o número do andar e a qual prédio ele corresponde, ex:
+E para o último argumento (andar.py), deverá ser passado o número do prédio correspondente e o número do andar, ex:
 ```
 python andar.py 1 1
 ```
