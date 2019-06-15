@@ -12,10 +12,18 @@ Algumas considerações:
 - Há somente liberação para aqueles destino.
 - O número de prédios e andares é fixo.
 
+## Solução
+
 Foi utilizada uma topologia hierárquica publisher-subscriber utilizando a ferramenta de comunicação [ZeroMQ](http://zeromq.org/) (zero message queue) como descreve a imagem:
 
 
 ![topologia](diagramas/Estrutura.png)
+
+O complexo apenas recebe pedidos de entrada (*aleatória*, segundo a função rand()) de pessoas físicas.
+
+O prédio correspondente, recebe tais requisições apresentando-as na tela e as envia para o canal dos andares. Ele também guarda uma requisição para fins de gerencia no próprio servidor (*cada prédio contém um*).
+
+O andar correspondente, recebe a requisição e apresenta na tela, além de guardá-la para fins de gerencia. Sendo este, um pequeno servidor na própria máquina que executa o cliente.
 
 Neste modelo, há dois compenentes de processamento das mensagens:
 - [Cliente.py](codigos/cliente.py)
@@ -26,12 +34,8 @@ Sendo estruturados da seguinte forma:
 ![componentes](diagramas/Componentes2.png)
 
 Cada componente apresenta um terminal para exibir as informações.
-O complexo apenas recebe pedidos de entrada (*aleatória*, segundo a função rand()) de pessoas físicas.
 
-O prédio correspondente, recebe tais requisições apresentando-as na tela e as envia para o canal dos andares. Ele também guarda uma requisição para fins de gerencia no próprio servidor (*cada prédio contém um*).
-
-O andar correspondente, recebe a requisição e apresenta na tela, além de guardá-la para fins de gerencia. Sendo este, um pequeno servidor na própria máquina que executa o cliente.
-
+## Executando os códigos
 
 ### Pre-requisitos
 
@@ -41,8 +45,6 @@ O andar correspondente, recebe a requisição e apresenta na tela, além de guar
 ```
 pip install zmq
 ```
-
-## Executando os códigos
 
 Baixe a pasta codigos deste repositório, e para cara arquivo:
 
