@@ -9,7 +9,15 @@ A descrição do problema pode ser lida no arquivo PDF: [Descrição](/TG-Enunci
 Foi utilizada uma topologia hierárquica publisher-subscriber utilizando a ferramenta de comunicação [ZeroMQ](http://zeromq.org/) (zero message queue) como descreve a imagem:
 
 
-![topologia](diagramas/Diagrama_estrutura.png)
+![topologia](diagramas/Estrutura.png)
+
+Neste modelo, há dois compenentes de processamento das mensagens:
+- [Cliente.py](codigos/cliente.py)
+- [Servidor.py](codigos/servidor.py)
+
+Sendo estruturados da seguinte forma:
+
+![componentes](diagramas/Componentes.png)
 
 
 ### Pre-requisitos
