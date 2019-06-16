@@ -9,7 +9,7 @@ A descrição do problema pode ser lida no arquivo PDF: [Descrição](/TG-Enunci
 Algumas considerações:
 - Cada pessoa sempre entra pelo complexo.
 - Todos tem um caminho, i.e., um destino pré-fixado.
-- Há somente liberação para aqueles destino.
+- Há somente liberação para aquele destino.
 - O número de prédios e andares é fixo.
 
 ## Solução
