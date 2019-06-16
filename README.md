@@ -16,7 +16,6 @@ Algumas considerações:
 
 Foi utilizada uma topologia hierárquica publisher-subscriber utilizando a ferramenta de comunicação [ZeroMQ](http://zeromq.org/) (zero message queue) como descreve a imagem:
 
-
 ![topologia](diagramas/Estrutura.png)
 
 O complexo apenas recebe pedidos de entrada (*aleatória*, segundo a função rand()) de pessoas físicas.
@@ -52,7 +51,7 @@ Baixe a pasta codigos deste repositório, e para cara arquivo:
 - [predio.py](codigos/predio.py)
 - [andar.py](codigos/andar.py)
 
-deverá ser aberta uma tela de terminal e executado o arquivo em sequência, ex:
+deverá ser aberto um terminal e executado o arquivo em sequência, ex:
 
 ```
 python complexo.py
@@ -74,7 +73,7 @@ E para o último argumento (andar.py), deverá ser passado o número do prédio 
 python andar.py 1 1
 ```
 sendo este terminal, responsável pelo andar 1 do prédio 1.
-> É disnecessário dizer que o prédio deve ser criado para o andar receber às informações.
+> É desnecessário dizer que o prédio deve ser criado para o andar receber às informações.
 
 ## Contribuição
 
