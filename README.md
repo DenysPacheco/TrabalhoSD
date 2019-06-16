@@ -85,6 +85,6 @@ sendo este terminal, responsável pelo andar 1 do prédio 1.
 
 ## Observações
 
-* Ainda há muito que polir no código
+* Ainda há muito o que polir no código
 * Além de limpar algumas partes, e corigir outras com refatorações
-* Bom como deixá-lo mais dinâmico e de fácil utilização
+* Bem como deixá-lo mais dinâmico e de fácil utilização
